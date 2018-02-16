@@ -10,7 +10,7 @@ import pymongo
 
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB]
-
+#试验第五次
 # browser = webdriver.Chrome()
 browser = webdriver.PhantomJS()
 wait = WebDriverWait(browser, 10)
