@@ -8,10 +8,9 @@ from pyquery import PyQuery as pq
 from TaoBao_produces_config import *
 import pymongo
 
-#加一行注释试试看
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB]
-
+#12312321312
 # browser = webdriver.Chrome()
 browser = webdriver.PhantomJS()
 wait = WebDriverWait(browser, 10)
